@@ -6,150 +6,150 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-00C853?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
 
-[![IET Paper](https://img.shields.io/badge/📄_IET_Journal-2021-D32F2F?style=for-the-badge)](https://ietresearch.onlinelibrary.wiley.com/journal/17519667)
-[![AIME Conference](https://img.shields.io/badge/📝_AIME_Conference-2019-1976D2?style=for-the-badge)](#-publications)
-[![IbPRIA Conference](https://img.shields.io/badge/📝_IbPRIA_Conference-2019-7B1FA2?style=for-the-badge)](#-publications)
+[![IET Paper](https://img.shields.io/badge/IET_Journal-2021-D32F2F?style=for-the-badge)](https://ietresearch.onlinelibrary.wiley.com/journal/17519667)
+[![AIME Conference](https://img.shields.io/badge/AIME_Conference-2019-1976D2?style=for-the-badge)](#publications)
+[![IbPRIA Conference](https://img.shields.io/badge/IbPRIA_Conference-2019-7B1FA2?style=for-the-badge)](#publications)
 
-[![Datasets](https://img.shields.io/badge/📊_Datasets-DRIVE_|_STARE_|_CHASE--DB1-00BCD4?style=for-the-badge)](#-supported-datasets)
-[![Code Quality](https://img.shields.io/badge/Code_Quality-Production_Ready-4CAF50?style=for-the-badge)](#-installation)
-
-</div>
-
----
-
-### 🚀 *Next-generation retinal vessel segmentation powered by ensemble machine learning and deep neural networks*
-
-<div align="center">
-
-| 🤖 **Machine Learning** | 🧠 **Deep Learning** | 🎭 **Ensemble Methods** | 🔬 **Advanced Features** |
-|:------------------------:|:---------------------:|:------------------------:|:-------------------------:|
-| [![RF](https://img.shields.io/badge/Random_Forest-Available-success?style=flat-square)](src/classification/trainRFC.m) | [![Deep Features](https://img.shields.io/badge/CNN_Features-VGG--16-informational?style=flat-square)](src/python/) | [![Majority Voting](https://img.shields.io/badge/Majority_Voting-✓-success?style=flat-square)](src/classification/trainEnsemble.m) | [![Binary 32](https://img.shields.io/badge/32--bit_Binary-✓-blue?style=flat-square)](src/features/create_binary_32.m) |
-| [![SVM](https://img.shields.io/badge/SVM_(RBF/Linear)-Available-success?style=flat-square)](src/classification/trainSVM.m) | [![Patch Extraction](https://img.shields.io/badge/Adaptive_Patches-Available-informational?style=flat-square)](src/python/patch_extraction.py) | [![Weighted Voting](https://img.shields.io/badge/Weighted_Voting-✓-success?style=flat-square)](src/classification/testEnsemble.m) | [![Binary 64](https://img.shields.io/badge/64--bit_Binary-✓-blue?style=flat-square)](src/features/create_binary_64.m) |
-| [![AdaBoost](https://img.shields.io/badge/AdaBoost-Available-success?style=flat-square)](src/classification/trainAdaBoost.m) | [![Transfer Learning](https://img.shields.io/badge/Transfer_Learning-Pre--trained-informational?style=flat-square)](src/python/) | [![Stacking](https://img.shields.io/badge/Meta_Stacking-✓-success?style=flat-square)](src/classification/trainEnsemble.m) | [![Binary 128](https://img.shields.io/badge/128--bit_Binary-✓-blue?style=flat-square)](src/features/create_binary_128.m) |
-| | | | [![Binary 512](https://img.shields.io/badge/512--bit_Binary-✓-blue?style=flat-square)](src/features/create_binary_512.m) |
+[![Datasets](https://img.shields.io/badge/Datasets-DRIVE_|_STARE_|_CHASE--DB1-00BCD4?style=for-the-badge)](#supported-datasets)
+[![Code Quality](https://img.shields.io/badge/Code_Quality-Production_Ready-4CAF50?style=for-the-badge)](#installation)
 
 </div>
 
 ---
 
-### 🏆 **Benchmark Performance Results**
+### Advanced retinal vessel segmentation framework with ensemble machine learning and multi-scale feature extraction
 
 <div align="center">
 
-*🎯 **Clinical-grade accuracy** achieved through advanced ensemble intelligence and multi-dimensional feature engineering*
+| **Machine Learning** | **Deep Learning** | **Ensemble Methods** | **Feature Engineering** |
+|:--------------------:|:-----------------:|:--------------------:|:-----------------------:|
+| [![RF](https://img.shields.io/badge/Random_Forest-Available-success?style=flat-square)](src/classification/trainRFC.m) | [![Deep Features](https://img.shields.io/badge/CNN_Features-VGG--16-informational?style=flat-square)](src/python/) | [![Majority Voting](https://img.shields.io/badge/Majority_Voting-Available-success?style=flat-square)](src/classification/trainEnsemble.m) | [![Binary 32](https://img.shields.io/badge/32--bit_Binary-Available-blue?style=flat-square)](src/features/create_binary_32.m) |
+| [![SVM](https://img.shields.io/badge/SVM_(RBF/Linear)-Available-success?style=flat-square)](src/classification/trainSVM.m) | [![Patch Extraction](https://img.shields.io/badge/Adaptive_Patches-Available-informational?style=flat-square)](src/python/patch_extraction.py) | [![Weighted Voting](https://img.shields.io/badge/Weighted_Voting-Available-success?style=flat-square)](src/classification/testEnsemble.m) | [![Binary 64](https://img.shields.io/badge/64--bit_Binary-Available-blue?style=flat-square)](src/features/create_binary_64.m) |
+| [![AdaBoost](https://img.shields.io/badge/AdaBoost-Available-success?style=flat-square)](src/classification/trainAdaBoost.m) | [![Transfer Learning](https://img.shields.io/badge/Transfer_Learning-Pre--trained-informational?style=flat-square)](src/python/) | [![Stacking](https://img.shields.io/badge/Meta_Stacking-Available-success?style=flat-square)](src/classification/trainEnsemble.m) | [![Binary 128](https://img.shields.io/badge/128--bit_Binary-Available-blue?style=flat-square)](src/features/create_binary_128.m) |
+| | | | [![Binary 512](https://img.shields.io/badge/512--bit_Binary-Available-blue?style=flat-square)](src/features/create_binary_512.m) |
+
+</div>
+
+---
+
+### Benchmark Performance Results
+
+<div align="center">
+
+*Clinical-grade accuracy achieved through ensemble intelligence and hierarchical feature engineering*
 
 <table>
 <tr>
-<th align="center">🗃️ <strong>Dataset</strong></th>
-<th align="center">🎯 <strong>Accuracy</strong></th>
-<th align="center">🔍 <strong>Sensitivity</strong></th>
-<th align="center">⚡ <strong>Specificity</strong></th>
-<th align="center">📊 <strong>AUC</strong></th>
-<th align="center">🏅 <strong>Top Method</strong></th>
-<th align="center">⏱️ <strong>Processing</strong></th>
+<th align="center"><strong>Dataset</strong></th>
+<th align="center"><strong>Accuracy</strong></th>
+<th align="center"><strong>Sensitivity</strong></th>
+<th align="center"><strong>Specificity</strong></th>
+<th align="center"><strong>AUC</strong></th>
+<th align="center"><strong>Best Method</strong></th>
+<th align="center"><strong>Processing Time</strong></th>
 </tr>
 <tr>
-<td align="center"><strong>🔴 DRIVE</strong></td>
-<td align="center"><code>🟢 96.1%</code></td>
-<td align="center"><code>🟡 78.5%</code></td>
-<td align="center"><code>🟢 98.4%</code></td>
-<td align="center"><code>🟢 88.9%</code></td>
-<td align="center">🎭 <strong>Ensemble</strong></td>
-<td align="center"><code>~15s/img</code></td>
+<td align="center"><strong>DRIVE</strong></td>
+<td align="center"><code>96.1%</code></td>
+<td align="center"><code>78.5%</code></td>
+<td align="center"><code>98.4%</code></td>
+<td align="center"><code>88.9%</code></td>
+<td align="center"><strong>Ensemble</strong></td>
+<td align="center"><code>~15s/image</code></td>
 </tr>
 <tr>
-<td align="center"><strong>🟠 STARE</strong></td>
-<td align="center"><code>🟢 95.6%</code></td>
-<td align="center"><code>🟢 80.1%</code></td>
-<td align="center"><code>🟢 97.8%</code></td>
-<td align="center"><code>🟢 89.2%</code></td>
-<td align="center">🚀 <strong>AdaBoost</strong></td>
-<td align="center"><code>~12s/img</code></td>
+<td align="center"><strong>STARE</strong></td>
+<td align="center"><code>95.6%</code></td>
+<td align="center"><code>80.1%</code></td>
+<td align="center"><code>97.8%</code></td>
+<td align="center"><code>89.2%</code></td>
+<td align="center"><strong>AdaBoost</strong></td>
+<td align="center"><code>~12s/image</code></td>
 </tr>
 <tr>
-<td align="center"><strong>🔵 CHASE_DB1</strong></td>
-<td align="center"><code>🟢 94.9%</code></td>
-<td align="center"><code>🟡 77.8%</code></td>
-<td align="center"><code>🟢 98.1%</code></td>
-<td align="center"><code>🟢 87.8%</code></td>
-<td align="center">🧠 <strong>SVM-RBF</strong></td>
-<td align="center"><code>~18s/img</code></td>
+<td align="center"><strong>CHASE_DB1</strong></td>
+<td align="center"><code>94.9%</code></td>
+<td align="center"><code>77.8%</code></td>
+<td align="center"><code>98.1%</code></td>
+<td align="center"><code>87.8%</code></td>
+<td align="center"><strong>SVM-RBF</strong></td>
+<td align="center"><code>~18s/image</code></td>
 </tr>
 <tr>
 <td colspan="7" align="center">
-<em>🔬 <strong>Advanced Performance Metrics</strong></em>
+<em><strong>Comprehensive Performance Analysis</strong></em>
 </td>
 </tr>
 <tr>
-<td align="center"><strong>📊 Average</strong></td>
-<td align="center"><code>🏆 95.5%</code></td>
-<td align="center"><code>📈 78.8%</code></td>
-<td align="center"><code>🎯 98.1%</code></td>
-<td align="center"><code>⭐ 88.6%</code></td>
-<td align="center">🎭 <strong>Multi-Method</strong></td>
-<td align="center"><code>~15s/img</code></td>
+<td align="center"><strong>Average</strong></td>
+<td align="center"><code>95.5%</code></td>
+<td align="center"><code>78.8%</code></td>
+<td align="center"><code>98.1%</code></td>
+<td align="center"><code>88.6%</code></td>
+<td align="center"><strong>Multi-Method</strong></td>
+<td align="center"><code>~15s/image</code></td>
 </tr>
 </table>
 
 <br>
 
-| 📊 **Performance Highlights** | 🔬 **Technical Innovation** | 🎯 **Clinical Impact** |
-|:-----------------------------:|:---------------------------:|:----------------------:|
-| **🏆 Best-in-Class Accuracy** | **🧮 Multi-Scale Features** | **⚡ Real-Time Processing** |
-| `96.1%` on DRIVE dataset | 32→512-bit binary descriptors | `<20s` per fundus image |
-| **🎭 Ensemble Intelligence** | **🧠 Deep Learning Integration** | **🩺 Clinical Validation** |
+| **Performance Highlights** | **Technical Innovation** | **Clinical Applications** |
+|:---------------------------:|:------------------------:|:-------------------------:|
+| **Best-in-Class Accuracy** | **Multi-Scale Features** | **Real-Time Processing** |
+| 96.1% on DRIVE dataset | 32→512-bit binary descriptors | <20s per fundus image |
+| **Ensemble Intelligence** | **Deep Learning Integration** | **Clinical Validation** |
 | Multi-classifier fusion | VGG-16 pre-trained features | Validated on 3 datasets |
 
 </div>
 
 <div align="center">
-<em>📈 <strong>Results achieved with ensemble methods and hierarchical feature descriptors</strong><br>
-🔬 <strong>Detailed performance analysis and ablation studies available in published papers</strong><br>
-⚡ <strong>Processing times measured on Intel i7-8700K with 32GB RAM</strong></em>
+<em><strong>Results achieved with ensemble methods and hierarchical feature descriptors</strong><br>
+<strong>Detailed performance analysis and ablation studies available in published papers</strong><br>
+<strong>Processing times measured on Intel i7-8700K with 32GB RAM</strong></em>
 </div>
 
 ---
 
-### ✨ **Key Technical Innovations**
+### Key Technical Innovations
 
 <div align="center">
 
 <table>
 <tr>
 <td align="center" width="25%">
-<h4>🧮 <strong>Multi-Dimensional Features</strong></h4>
+<h4><strong>Multi-Dimensional Features</strong></h4>
 <ul>
-<li>🔹 32/64/128/512-bit binary patterns</li>
-<li>🔹 Hierarchical Local Haar descriptors</li>
-<li>🔹 Saha adaptive thresholding variant</li>
-<li>🔹 Enhanced SURF keypoints</li>
+<li>32/64/128/512-bit binary patterns</li>
+<li>Hierarchical Local Haar descriptors</li>
+<li>Saha adaptive thresholding variant</li>
+<li>Enhanced SURF keypoints</li>
 </ul>
 </td>
 <td align="center" width="25%">
-<h4>🤖 <strong>ML Arsenal</strong></h4>
+<h4><strong>Machine Learning Methods</strong></h4>
 <ul>
-<li>🌳 Random Forest (50-500 trees)</li>
-<li>🎯 SVM (RBF/Linear kernels)</li>
-<li>🚀 AdaBoost ensemble</li>
-<li>🧠 Pre-trained CNN features</li>
+<li>Random Forest (50-500 trees)</li>
+<li>SVM (RBF/Linear kernels)</li>
+<li>AdaBoost ensemble</li>
+<li>Pre-trained CNN features</li>
 </ul>
 </td>
 <td align="center" width="25%">
-<h4>🎭 <strong>Ensemble Intelligence</strong></h4>
+<h4><strong>Ensemble Intelligence</strong></h4>
 <ul>
-<li>🗳️ Majority voting</li>
-<li>⚖️ Weighted voting</li>
-<li>🏗️ Meta-learner stacking</li>
-<li>📊 Confidence fusion</li>
+<li>Majority voting</li>
+<li>Weighted voting</li>
+<li>Meta-learner stacking</li>
+<li>Confidence fusion</li>
 </ul>
 </td>
 <td align="center" width="25%">
-<h4>🔧 <strong>Production Features</strong></h4>
+<h4><strong>Production Features</strong></h4>
 <ul>
-<li>⚡ Optimized processing</li>
-<li>📊 Comprehensive evaluation</li>
-<li>🐍 Python/MATLAB integration</li>
-<li>📚 Complete documentation</li>
+<li>Optimized processing</li>
+<li>Comprehensive evaluation</li>
+<li>Python/MATLAB integration</li>
+<li>Complete documentation</li>
 </ul>
 </td>
 </tr>
@@ -161,92 +161,92 @@
 
 </div>
 
-## 🎯 **Project Overview**
+## Project Overview
 
-**🏥 Clinical Impact:** This repository provides a comprehensive, production-ready suite for automated retinal blood vessel segmentation from color fundus photographs. Our methods support computer-aided diagnosis of **diabetic retinopathy**, **glaucoma**, **hypertensive retinopathy**, and other cardiovascular diseases through precise vessel analysis.
+**Clinical Impact:** This repository provides a comprehensive, production-ready suite for automated retinal blood vessel segmentation from color fundus photographs. Our methods support computer-aided diagnosis of **diabetic retinopathy**, **glaucoma**, **hypertensive retinopathy**, and other cardiovascular diseases through precise vessel analysis.
 
-**🔬 Research Innovation:** Featuring **peer-reviewed** implementations published in top-tier venues (IET, AIME, IbPRIA), this project explores cutting-edge combinations of supervised, unsupervised, and semi-supervised learning approaches with **ensemble intelligence**.
+**Research Innovation:** Featuring **peer-reviewed** implementations published in top-tier venues (IET, AIME, IbPRIA), this project explores cutting-edge combinations of supervised, unsupervised, and semi-supervised learning approaches with **ensemble intelligence**.
 
-### 🤖 **Advanced Machine Learning Arsenal**
+### Advanced Machine Learning Arsenal
 
 <div align="center">
 
-| 🎯 **Supervised Learning** | 🔍 **Unsupervised Methods** | 🧠 **Ensemble Intelligence** |
-|:-------------------------:|:---------------------------:|:----------------------------:|
-| 🌳 **Random Forest** | 📏 Multi-scale line detection | 🎭 **Multi-Classifier Ensemble** |
-| 🎯 **Support Vector Machine** | 🔄 Adaptive thresholding | ⚖️ Weighted voting |
-| 🚀 **AdaBoost Ensemble** | 🧩 Connected component analysis | 🏗️ Stacking meta-learning |
-| 🐍 **Deep CNN Features** | 🎨 Morphological operations | 📊 Confidence aggregation |
+| **Supervised Learning** | **Unsupervised Methods** | **Ensemble Intelligence** |
+|:------------------------:|:---------------------------:|:---------------------------:|
+| **Random Forest** | Multi-scale line detection | **Multi-Classifier Ensemble** |
+| **Support Vector Machine** | Adaptive thresholding | Weighted voting |
+| **AdaBoost Ensemble** | Connected component analysis | Stacking meta-learning |
+| **Deep CNN Features** | Morphological operations | Confidence aggregation |
 
 </div>
 
-### 🔧 **Technical Innovation Stack**
+### Technical Innovation Stack
 
-- **🧮 Multi-Dimensional Feature Descriptors:** 32/64/128/512-bit binary patterns with hierarchical analysis
-- **📐 Advanced Line Detection:** Multi-scale oriented filters with standardization and noise reduction  
-- **🎯 SURF-Enhanced Features:** Modified keypoint detection with region-aware processing
-- **🧠 Ensemble Intelligence:** Majority/weighted/stacking voting with uncertainty quantification
-- **🐍 Deep Learning Integration:** VGG-based features and adaptive patch extraction
-- **⚡ High-Performance Computing:** Optimized MATLAB implementation with Python extensions
+- **Multi-Dimensional Feature Descriptors:** 32/64/128/512-bit binary patterns with hierarchical analysis
+- **Advanced Line Detection:** Multi-scale oriented filters with standardization and noise reduction  
+- **SURF-Enhanced Features:** Modified keypoint detection with region-aware processing
+- **Ensemble Intelligence:** Majority/weighted/stacking voting with uncertainty quantification
+- **Deep Learning Integration:** VGG-based features and adaptive patch extraction
+- **High-Performance Computing:** Optimized MATLAB implementation with Python extensions
 
-## 🏗️ **Comprehensive Framework Architecture**
+## Comprehensive Framework Architecture
 
 This project implements a **multi-tiered approach** combining traditional computer vision with modern machine learning:
 
-### 🎯 **Core Methodological Approaches**
+### Core Methodological Approaches
 
 <div align="center">
 
-| 🔬 **Approach Category** | 🛠️ **Implementation** | 📊 **Key Features** | 🎯 **Best Use Case** |
-|:------------------------:|:---------------------:|:-------------------:|:--------------------:|
-| **🌳 Supervised Learning** | Random Forest, SVM, AdaBoost | Pixel-wise classification, ensemble voting | High-accuracy vessel detection |
-| **🔍 Unsupervised Methods** | Multi-scale line detection | Orientation-aware filtering, adaptive thresholding | Real-time processing, no training data |
-| **🧠 Semi-Supervised** | Hybrid labeled/unlabeled | Confidence-based learning, active sampling | Limited annotation scenarios |
-| **🎭 Ensemble Intelligence** | Multi-classifier fusion | Weighted voting, stacking, uncertainty quantification | Maximum performance scenarios |
+| **Approach Category** | **Implementation** | **Key Features** | **Best Use Case** |
+|:---------------------:|:------------------:|:----------------:|:----------------:|
+| **Supervised Learning** | Random Forest, SVM, AdaBoost | Pixel-wise classification, ensemble voting | High-accuracy vessel detection |
+| **Unsupervised Methods** | Multi-scale line detection | Orientation-aware filtering, adaptive thresholding | Real-time processing, no training data |
+| **Semi-Supervised** | Hybrid labeled/unlabeled | Confidence-based learning, active sampling | Limited annotation scenarios |
+| **Ensemble Intelligence** | Multi-classifier fusion | Weighted voting, stacking, uncertainty quantification | Maximum performance scenarios |
 
 </div>
 
-### 🧮 **Advanced Feature Engineering Pipeline**
+### Advanced Feature Engineering Pipeline
 
-- **📐 Hierarchical Local Haar Patterns (LHP):** 32→64→128→512-bit binary descriptors with multi-scale analysis
-- **🌊 Enhanced SURF Descriptors:** Modified keypoint detection optimized for retinal vessel morphology
-- **🔄 Adaptive Binary Features:** Saha variant with vessel-specific thresholding and boundary enhancement
-- **🧠 Deep Learning Features:** VGG-based CNN features integrated with traditional descriptors
-- **📊 Multi-Scale Line Detection:** Oriented filters across 12 scales with standardization and noise reduction
+- **Hierarchical Local Haar Patterns (LHP):** 32→64→128→512-bit binary descriptors with multi-scale analysis
+- **Enhanced SURF Descriptors:** Modified keypoint detection optimized for retinal vessel morphology
+- **Adaptive Binary Features:** Saha variant with vessel-specific thresholding and boundary enhancement
+- **Deep Learning Features:** VGG-based CNN features integrated with traditional descriptors
+- **Multi-Scale Line Detection:** Oriented filters across 12 scales with standardization and noise reduction
 
-### 🎯 **Machine Learning Ensemble System**
+### Machine Learning Ensemble System
 
 #### **Individual Classifiers:**
-- **🌳 Random Forest:** 50-500 trees with balanced sampling and out-of-bag validation
-- **🎯 Support Vector Machine:** RBF/Linear kernels with comprehensive feature standardization  
-- **🚀 AdaBoost:** Adaptive boosting with focus on difficult vessel pixels
-- **🧠 Deep Features:** Pre-trained CNN integration for enhanced discrimination
+- **Random Forest:** 50-500 trees with balanced sampling and out-of-bag validation
+- **Support Vector Machine:** RBF/Linear kernels with comprehensive feature standardization  
+- **AdaBoost:** Adaptive boosting with focus on difficult vessel pixels
+- **Deep Features:** Pre-trained CNN integration for enhanced discrimination
 
 #### **Ensemble Combination Methods:**
-- **🗳️ Majority Voting:** Democratic classifier combination
-- **⚖️ Weighted Voting:** Performance-based weight allocation with softmax normalization
-- **🏗️ Stacking:** Meta-classifier learning optimal combination strategies
-- **📊 Confidence Fusion:** Uncertainty-aware prediction aggregation
+- **Majority Voting:** Democratic classifier combination
+- **Weighted Voting:** Performance-based weight allocation with softmax normalization
+- **Stacking:** Meta-classifier learning optimal combination strategies
+- **Confidence Fusion:** Uncertainty-aware prediction aggregation
 
-### 🔧 **Post-Processing Intelligence**
-- **🧩 Connected Component Analysis** with adaptive size filtering
-- **🎨 Morphological Operations** guided by ensemble confidence
-- **🌊 Vessel Continuity Enhancement** using morphological reconstruction
-- **⚡ Noise Filtering** with uncertainty-guided adaptive thresholds
+### Post-Processing Intelligence
+- **Connected Component Analysis** with adaptive size filtering
+- **Morphological Operations** guided by ensemble confidence
+- **Vessel Continuity Enhancement** using morphological reconstruction
+- **Noise Filtering** with uncertainty-guided adaptive thresholds
 
-## 📚 Publications
+## Publications
 
 <div align="center">
 
-### 🏆 **Published Research**
+### Published Research
 
 </div>
 
 | Year | Venue | Title | Type |
 |:----:|:-----:|-------|:----:|
-| **2021** | ![IET](https://img.shields.io/badge/IET%20Image%20Processing-Journal-red) | *"An innovate approach for retinal blood vessel segmentation using mixture of supervised and unsupervised methods"* | 📄 |
-| **2019** | ![AIME](https://img.shields.io/badge/AIME-Conference-blue) | *"A semi-supervised approach to segment retinal blood vessels in color fundus photographs"* | 📝 |
-| **2019** | ![IbPRIA](https://img.shields.io/badge/IbPRIA-Conference-green) | *"Retinal blood vessel segmentation: A semi-supervised approach"* | 📝 |
+| **2021** | ![IET](https://img.shields.io/badge/IET%20Image%20Processing-Journal-red) | *"An innovate approach for retinal blood vessel segmentation using mixture of supervised and unsupervised methods"* | Journal |
+| **2019** | ![AIME](https://img.shields.io/badge/AIME-Conference-blue) | *"A semi-supervised approach to segment retinal blood vessels in color fundus photographs"* | Conference |
+| **2019** | ![IbPRIA](https://img.shields.io/badge/IbPRIA-Conference-green) | *"Retinal blood vessel segmentation: A semi-supervised approach"* | Conference |
 
 ---
 
@@ -290,87 +290,111 @@ This project implements a **multi-tiered approach** combining traditional comput
 
 > **📝 Citation Notice:** Please cite the relevant papers when using this code in your research.
 
-## 🏗️ Project Structure
+## Project Structure
 
 <details>
-<summary><b>📁 Click to view complete project structure</b></summary>
+<summary><b>Click to view complete project structure</b></summary>
 
 ```
-📦 retinalVesselSegmentation/
-├── 📄 README.md                    # You are here!
-├── 📊 accuracy_tesst.m             # Accuracy evaluation metrics
-├── 🤖 trainRFC.m                   # Random Forest classifier training
-├── 🧪 testRFC.m                    # Testing with trained RF model
-├── 🩺 VesselSegment.m              # Main vessel segmentation function
-├── 📏 multi_test.m                 # Multi-scale segmentation wrapper
-├── 🖼️  im_seg.m                     # Core image segmentation
-├── 🔍 extractFeature.m             # SURF feature extraction
-├── 🧩 extractFeatureH.m            # Hierarchical feature extraction
-├── 📐 create_descriptor.m          # Patch descriptor creation
-├── 🔢 create_binary.m              # Binary features (16)
-├── 🔣 create_binary_32.m           # Extended binary features (32)
-├── 📊 get_lineresponse.m           # Multi-scale line detection
-├── 🎭 get_linemask.m               # Line mask generation
-├── ⚖️  standardize.m                # Image standardization
-├── 🧹 noisefiltering.m             # Post-processing noise removal
-├── 🌊 OpenSurf_Sheen.m             # Modified SURF implementation
-├── 📁 Images/                      # Dataset images and results
-│   └── 📂 RFC SET/
-│       ├── 🔬 DRIVE/               # DRIVE dataset
-│       ├── ⭐ STARE/               # STARE dataset
-│       └── 🏥 CHASEDB1/            # CHASE_DB1 dataset
-├── 📁 base_segmentation/           # Base segmentation algorithms
-└── 📚 Publications/                # Research papers
+retinalVesselSegmentation/
+├── README.md                       # Project documentation
+├── accuracy_tesst.m                # Accuracy evaluation metrics
+├── setupProject.m                  # Automated project setup
+├── src/                            # Source code directory
+│   ├── classification/             # Machine learning classifiers
+│   │   ├── trainRFC.m             # Random Forest training
+│   │   ├── testRFC.m              # RF model testing
+│   │   ├── trainSVM.m             # SVM training
+│   │   ├── testSVM.m              # SVM testing
+│   │   ├── trainAdaBoost.m        # AdaBoost training
+│   │   ├── testAdaBoost.m         # AdaBoost testing
+│   │   ├── trainEnsemble.m        # Ensemble training
+│   │   └── testEnsemble.m         # Ensemble testing
+│   ├── core/                      # Core segmentation functions
+│   │   ├── VesselSegment.m        # Main segmentation function
+│   │   ├── im_seg.m               # Image segmentation core
+│   │   ├── multi_test.m           # Multi-scale wrapper
+│   │   ├── get_lineresponse.m     # Line filter response
+│   │   └── get_linemask.m         # Line mask generation
+│   ├── features/                  # Feature extraction methods
+│   │   ├── extractFeature.m       # SURF feature extraction
+│   │   ├── extractFeatureH.m      # Hierarchical features
+│   │   ├── create_binary.m        # 16-bit binary features
+│   │   ├── create_binary_32.m     # 32-bit binary features
+│   │   ├── create_binary_64.m     # 64-bit binary features
+│   │   ├── create_binary_128.m    # 128-bit binary features
+│   │   ├── create_binary_512.m    # 512-bit binary features
+│   │   ├── create_binary_saha.m   # Saha variant features
+│   │   └── OpenSurf_Sheen.m       # Modified SURF implementation
+│   ├── preprocessing/             # Image preprocessing
+│   │   ├── standardize.m          # Image standardization
+│   │   ├── noisefiltering.m       # Noise removal
+│   │   └── fakepad.m              # Image padding
+│   ├── python/                    # Python integration
+│   │   ├── patch_extraction.py    # Adaptive patch extraction
+│   │   └── vgg_feature.py         # Deep learning features
+│   └── evaluation/                # Performance evaluation
+│       └── accuracy_tesst.m       # Metrics calculation
+├── Images/                        # Dataset images and results
+│   └── RFC SET/
+│       ├── DRIVE/                 # DRIVE dataset
+│       ├── STARE/                 # STARE dataset
+│       └── CHASEDB1/              # CHASE_DB1 dataset
+├── docs/                          # Documentation
+│   ├── INSTALLATION.md            # Setup guide
+│   ├── USAGE.md                   # Usage examples
+│   └── API.md                     # API reference
+└── Publications/                  # Research papers
 ```
 
 </details>
 
-## 🔬 Methodology
+## Methodology
 
 <details>
-<summary><b>🔍 Click to expand methodology details</b></summary>
+<summary><b>Click to expand methodology details</b></summary>
 
-### 1. 📐 Multi-Scale Line Detection
+### 1. Multi-Scale Line Detection
 The algorithm employs multi-scale line detectors to enhance vessel structures:
-- ✅ Uses oriented line masks at different scales (1, 3, 5, ..., W)
-- ✅ Combines responses across multiple orientations (0°, 15°, 30°, ..., 165°)
-- ✅ Applies standardization and noise reduction
+- Uses oriented line masks at different scales (1, 3, 5, ..., W)
+- Combines responses across multiple orientations (0°, 15°, 30°, ..., 165°)
+- Applies standardization and noise reduction
 
-### 2. 🧩 Feature Extraction
+### 2. Feature Extraction
 Two main feature extraction approaches:
 
-#### 🔗 Hierarchical Patch Descriptors with Local Haar Patterns (LHP)
-- ✅ Extracts 16 or 32 binary features from image patches
-- ✅ Uses integral images for efficient computation
-- ✅ Hierarchical decomposition for multi-resolution analysis
+#### Hierarchical Patch Descriptors with Local Haar Patterns (LHP)
+- Extracts 16-512 binary features from image patches
+- Uses integral images for efficient computation
+- Hierarchical decomposition for multi-resolution analysis
 
-#### 🎯 SURF-based Features
-- ✅ Modified SURF descriptor extraction
-- ✅ Region of interest (ROI) aware feature detection
-- ✅ 64-dimensional feature vectors
+#### SURF-based Features
+- Modified SURF descriptor extraction
+- Region of interest (ROI) aware feature detection
+- 64-dimensional feature vectors
 
-### 3. 🤖 Classification
+### 3. Classification
 Multiple supervised learning approaches were implemented and compared:
 
-- ✅ **Random Forest Classifier** with 50 trees (primary approach)
-- ✅ **Support Vector Machine (SVM)** with RBF kernel for comparative analysis
-- ✅ **AdaBoost** ensemble learning for enhanced weak learner performance
-- ✅ Training on vessel vs. non-vessel pixels
-- ✅ Balanced sampling (60% vessel, 40% non-vessel)
-- ✅ Cross-validation and out-of-bag validation for performance estimation
+- **Random Forest Classifier** with 50-500 trees (primary approach)
+- **Support Vector Machine (SVM)** with RBF/Linear kernels for comparative analysis
+- **AdaBoost** ensemble learning for enhanced weak learner performance
+- Training on vessel vs. non-vessel pixels
+- Balanced sampling (60% vessel, 40% non-vessel)
+- Cross-validation and out-of-bag validation for performance estimation
 
-### 4. 🔧 Post-processing
-- ✅ Connected component analysis
-- ✅ Noise filtering (removes objects < 100 pixels)
-- ✅ Binary vessel segmentation output
+### 4. Post-processing
+- Connected component analysis
+- Noise filtering (removes objects < 100 pixels)
+- Binary vessel segmentation output
 
 </details>
 
-## 🗃️ Supported Datasets
+## Supported Datasets
 
 <div align="center">
 
-### 📊 **Standard Retinal Datasets**
+### Standard Retinal Datasets
 
 </div>
 
@@ -381,9 +405,9 @@ Multiple supervised learning approaches were implemented and compared:
 ![DRIVE](https://img.shields.io/badge/DRIVE-40%20Images-blue?style=for-the-badge)
 
 **Digital Retinal Images for Vessel Extraction**
-- 🔬 High-resolution fundus images
-- ✅ Gold standard annotations
-- 📊 Widely used benchmark
+- High-resolution fundus images
+- Gold standard annotations
+- Widely used benchmark
 
 </td>
 <td align="center" width="33%">
@@ -391,9 +415,9 @@ Multiple supervised learning approaches were implemented and compared:
 ![STARE](https://img.shields.io/badge/STARE-20%20Images-green?style=for-the-badge)
 
 **STructured Analysis of the Retina**
-- 🩺 Pathological cases included
-- 👥 Multiple annotators
-- 📈 Challenging dataset
+- Pathological cases included
+- Multiple annotators
+- Challenging dataset
 
 </td>
 <td align="center" width="33%">
@@ -401,38 +425,38 @@ Multiple supervised learning approaches were implemented and compared:
 ![CHASE_DB1](https://img.shields.io/badge/CHASE__DB1-28%20Images-red?style=for-the-badge)
 
 **Child Heart & Health Study**
-- 👶 Pediatric images
-- 🔍 High detail annotations
-- 🌟 Unique characteristics
+- Pediatric images
+- High detail annotations
+- Unique characteristics
 
 </td>
 </tr>
 </table>
 
-## 📖 Documentation
+## Documentation
 
 <div align="center">
 
-### 📚 Comprehensive Guides and References
+### Comprehensive Guides and References
 
-| 📋 **Guide** | 📝 **Description** | 🔗 **Link** |
-|:------------:|:------------------:|:----------:|
-| 🚀 **Installation** | Setup guide with prerequisites and dependencies | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
-| 💻 **Usage Guide** | Detailed examples and workflows | [`docs/USAGE.md`](docs/USAGE.md) |
-| 🔧 **API Reference** | Complete function documentation | [`docs/API.md`](docs/API.md) |
-| 🤝 **Contributing** | Guidelines for contributors | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
-| 📄 **License** | Usage terms and citations | [`LICENSE`](LICENSE) |
-| 📋 **Changelog** | Version history and updates | [`CHANGELOG.md`](CHANGELOG.md) |
+| **Guide** | **Description** | **Link** |
+|:----------:|:---------------:|:--------:|
+| **Installation** | Setup guide with prerequisites and dependencies | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
+| **Usage Guide** | Detailed examples and workflows | [`docs/USAGE.md`](docs/USAGE.md) |
+| **API Reference** | Complete function documentation | [`docs/API.md`](docs/API.md) |
+| **Contributing** | Guidelines for contributors | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| **License** | Usage terms and citations | [`LICENSE`](LICENSE) |
+| **Changelog** | Version history and updates | [`CHANGELOG.md`](CHANGELOG.md) |
 
 </div>
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 <div align="center">
 
-### 🚀 Get Started in 3 Easy Steps!
+### Get Started in 3 Easy Steps
 
 </div>
 
@@ -440,18 +464,18 @@ Multiple supervised learning approaches were implemented and compared:
 <tr>
 <td width="33%">
 
-### 📋 **Step 1: Prerequisites**
+### **Step 1: Prerequisites**
 ```matlab
 % Required MATLAB toolboxes:
-✅ MATLAB R2016b+
-✅ Image Processing Toolbox
-✅ Statistics & ML Toolbox
+% - MATLAB R2016b+
+% - Image Processing Toolbox
+% - Statistics & ML Toolbox
 ```
 
 </td>
 <td width="33%">
 
-### 🎯 **Step 2: Training**
+### **Step 2: Training**
 ```matlab
 % Run training script
 trainRFC
@@ -464,7 +488,7 @@ trainRFC
 </td>
 <td width="33%">
 
-### 🧪 **Step 3: Testing**
+### **Step 3: Testing**
 ```matlab
 % Test all datasets
 testRFC
@@ -481,7 +505,7 @@ result = VesselSegment(img, mask);
 
 ---
 
-### 📈 **Evaluation**
+### Evaluation
 
 ```matlab
 % Calculate performance metrics
@@ -489,12 +513,12 @@ accuracy_tesst
 ```
 
 **Computed Metrics:**
-- 🎯 **Accuracy** - Overall classification performance
-- 🔍 **Sensitivity** - True Positive Rate (vessel detection)
-- ⚡ **Specificity** - True Negative Rate (background detection)
-- 📊 **AUC** - Area Under Curve approximation
+- **Accuracy** - Overall classification performance
+- **Sensitivity** - True Positive Rate (vessel detection)
+- **Specificity** - True Negative Rate (background detection)
+- **AUC** - Area Under Curve approximation
 
-## 📊 Performance Results
+## Performance Results
 
 The method achieves competitive performance on standard datasets:
 
@@ -506,11 +530,11 @@ The method achieves competitive performance on standard datasets:
 
 *Results may vary based on training configuration and dataset preprocessing*
 
-## 🔧 Key Functions
+## Key Functions
 
 <div align="center">
 
-### 🛠️ **Core API Reference**
+### Core API Reference
 
 </div>
 
@@ -518,14 +542,14 @@ The method achieves competitive performance on standard datasets:
 <tr>
 <td width="50%">
 
-### 🩺 **Core Segmentation**
+### **Core Segmentation**
 ```matlab
 VesselSegment(img, mask)         % Main function
 im_seg(img, mask, W)             % Multi-scale detection  
 get_lineresponse(img, W, L)      % Line filter response
 ```
 
-### 🧩 **Feature Extraction**
+### **Feature Extraction**
 ```matlab
 extractFeatureH(img, segImg, mask)     % Hierarchical features
 create_descriptor(img, mask, patchSize) % Patch descriptors
@@ -535,7 +559,7 @@ create_binary(r, c, integralImg, ...)   % Binary features
 </td>
 <td width="50%">
 
-### 🤖 **Machine Learning**
+### **Machine Learning**
 ```matlab
 trainRFC.m     % Random Forest training pipeline
 testRFC.m      % Multi-classifier testing (RF/SVM/AdaBoost)
@@ -544,7 +568,7 @@ testRFC.m      % Multi-classifier testing (RF/SVM/AdaBoost)
 % - AdaBoost ensemble learning
 ```
 
-### ⚙️ **Configuration**
+### **Configuration**
 ```matlab
 W = 15;           % Window size for line detection
 patchSize = 32;   % Patch size for features
@@ -556,12 +580,12 @@ noiseSize = 100;  % Noise filtering threshold
 </tr>
 </table>
 
-## 🛠️ Customization
+## Customization
 
 <details>
-<summary><b>⚙️ Advanced Configuration Options</b></summary>
+<summary><b>Advanced Configuration Options</b></summary>
 
-### 🎛️ **Parameter Tuning**
+### **Parameter Tuning**
 
 ```matlab
 % Window size for line detection (typically 15)
@@ -577,7 +601,7 @@ numTrees = 50;
 noiseSize = 100;
 ```
 
-### 📁 **Adding New Datasets**
+### **Adding New Datasets**
 
 1. **Create folder structure:**
    ```
@@ -595,11 +619,11 @@ noiseSize = 100;
 
 </details>
 
-## 👥 Authors
+## Authors
 
 <div align="center">
 
-### 👨‍🔬 **Research Team**
+### Research Team
 
 </div>
 
