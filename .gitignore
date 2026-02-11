@@ -1,0 +1,57 @@
+# MATLAB temporary files
+*.asv
+*.mex*
+*.p
+*.mat
+*.fig
+
+# MATLAB autosave files
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Log files
+*.log
+
+# Output directories (keep structure but ignore generated content)
+Images/RFC SET/*/multiscale_mask/test/*
+Images/RFC SET/*/multiscale_mask/train/*
+Images/RFC SET/*/rfc_output/*
+Images/RFC SET/*/multiscale_output/*
+
+# Results and experimental data
+results/
+output/
+experiments/
+
+# IDE files
+.vscode/
+.idea/
+
+# MATLAB project files (optional - uncomment if not needed)
+# *.prj
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Documentation build files
+docs/_build/
+docs/html/
+
+# Backup files
+*backup*
+*.orig
+
+# Performance profiling files
+profile_results*
